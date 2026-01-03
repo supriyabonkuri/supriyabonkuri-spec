@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #222;
+}
+
+.logo {
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover {
+  color: #00adb5;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #00adb5;
+  color: white;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Sections */
+.section {
+  padding: 60px 50px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+/* Skills */
+.skills span {
+  display: inline-block;
+  background: #222;
+  color: white;
+  padding: 10px 15px;
+  margin: 8px;
+  border-radius: 5px;
+}
+
+/* Projects */
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+}
